@@ -1,0 +1,84 @@
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+table { 
+    background-color: aliceblue;
+    font-size: xx-large;
+    border-collapse: collapse;
+    border: 5px solid black;
+    margin-top: 30px;
+}
+
+table tr,th,td{
+    border-collapse: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.link_git{
+    text-decoration: none;
+    color: black;
+}
+.link_git:hover{
+    color: green;
+}
+
+.sidenav a{
+    position: absolute;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.sidenav a:hover{
+    left: 0;
+}
+
+#html{
+    top: 110px;
+    background-color:cadetblue;
+}
+
+#css{
+    top: 170px;
+    background-color: #2196F3;
+}
+
+#more{
+    top: 230px;
+    background-color: teal;
+}
+
+.lt_gt{
+    color: red;
+}
+
+
